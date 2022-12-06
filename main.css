@@ -1,0 +1,64 @@
+html {
+    font-size: 14px;
+    height: 100%;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 1em;
+    height: 100%;
+}
+
+.content-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 375px;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: hsl(158, 36%, 37%);
+}
+
+p .strikethrough {
+    text-decoration: line-through;
+}
+
+
+button {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 88px;
+    margin-bottom: 20px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    width: 80%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+figure {
+    margin: 0;
+    object-fit: contain;
+}
+
+
